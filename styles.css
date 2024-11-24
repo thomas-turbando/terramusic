@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px rgb(18, 177, 44);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 228, 57);
+}
+
+.topo {
+	background: rgb(3, 90, 161);
+	padding-bottom: 80px;
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+img{
+    height: 200px;
+}
+h1{
+    color: black;
+}
+p{
+    color: rgb(255, 255, 255);
+}
+.categoria-musicas{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+.outras-musicas {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.boss{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: green
+}
+h3{
+    color: red;
+}
+.titulo{
+    position: 1000
+}
+.categoria-musicas img {
+    opacity: 0.5;
+}
+.categoria-musicas img:hover {
+    opacity: 1.0;
+    border: 2px solid red;
+}
+h2{
+    color: greenyellow;
+}
